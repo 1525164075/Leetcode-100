@@ -1,0 +1,21 @@
+# 忽略操作系统自动生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略 Typora 的备份文件
+*.bak
+
+# 忽略你个人的批处理脚本 (.bat)
+# 这一行会忽略所有 .bat 文件，包括 typora_commit.bat
+*.bat
+
+# 忽略常用的IDE配置文件（如果你用 VSCode 或 JetBrains 系列）
+.vscode/
+.idea/
+
+# 忽略前端项目中的依赖文件夹（非常重要！）
+node_modules/
+
+# 忽略打包生成的文件
+dist/
+build/
